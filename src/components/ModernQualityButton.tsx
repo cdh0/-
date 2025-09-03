@@ -74,7 +74,9 @@ const ModernQualityButton: React.FC = () => {
                 isAnimating ? 'rotate-180 scale-110' : 'group-hover:rotate-90'
               }`} 
             />
-            <span className="text-sm sm:text-lg whitespace-nowrap">زِيدي زهرة من صفاتك</span>
+            <span>
+              {shownQualities.length === 0 ? 'أزهار صفاتك' : 'زِيدي زهرة من صفاتك'}
+            </span>
             <Heart 
               size={18} 
               className={`transition-all duration-300 ${
