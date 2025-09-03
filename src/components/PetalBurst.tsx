@@ -38,7 +38,7 @@ const PetalBurst: React.FC<PetalBurstProps> = ({ trigger, onComplete }) => {
           rotation: Math.random() * 360,
           rotationSpeed: (Math.random() - 0.5) * 10,
           emoji: ['🌸', '🌺', '🌷', '🌹', '💮'][Math.floor(Math.random() * 5)],
-          emoji: ['🌸', '🌺', '🌷', '🌹', '💮', '🍪', '🧁'][Math.floor(Math.random() * 7)],
+          emoji: ['🌸', '🌺', '🌷', '🌹', '💮', '🍪'][Math.floor(Math.random() * 6)],
           scale: 0.8 + Math.random() * 0.6,
         };
       });
