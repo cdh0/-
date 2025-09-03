@@ -13,12 +13,6 @@ const ModernFooter: React.FC = () => {
 
       {/* Main footer content */}
       <div className="text-center">
-        <div className="inline-flex items-center gap-3 bg-white/60 backdrop-blur-sm px-6 py-3 rounded-full border border-pink-200/50 shadow-lg">
-          <span className="text-gray-600 text-sm sm:text-base">مع كل الحب والتقدير</span>
-          <div className="text-4xl mb-4 animate-bounce">🍪</div>
-          <span className="text-gray-600 text-sm sm:text-base font-semibold">لكوثر الغالية</span>
-        </div>
-        
         {/* Subtitle */}
         <p className="text-xs sm:text-sm text-gray-400 mt-4 px-4">
           أنت زهرة نادرة في حديقة الحياة 🌹
