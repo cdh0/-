@@ -33,6 +33,20 @@ const MobileOptimizedHeader: React.FC = () => {
         <p className="text-sm sm:text-base md:text-lg text-gray-500 max-w-md mx-auto px-4">
           اكتشفي جمال صفاتك مع كل زهرة جديدة تتفتح في حديقة قلبك
         </p>
+        
+        {/* Beautiful quote with modern styling */}
+        <div className="mt-8 relative">
+          <div className="inline-block bg-gradient-to-r from-pink-100 via-rose-100 to-purple-100 backdrop-blur-sm px-6 py-4 rounded-2xl border border-pink-200/50 shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <div className="absolute inset-0 bg-gradient-to-r from-pink-200/20 via-rose-200/20 to-purple-200/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <p className="relative z-10 text-lg sm:text-xl font-semibold text-gray-700 leading-relaxed">
+              أنت زهرة نادرة في حديقة الحياة 🌹
+            </p>
+            
+            {/* Decorative sparkles */}
+            <div className="absolute -top-2 -right-2 text-yellow-400 animate-pulse">✨</div>
+            <div className="absolute -bottom-2 -left-2 text-pink-400 animate-bounce">💫</div>
+          </div>
+        </div>
       </div>
 
       {/* Decorative elements */}
