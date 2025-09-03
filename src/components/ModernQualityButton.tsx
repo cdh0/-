@@ -117,7 +117,9 @@ const ModernQualityButton: React.FC = () => {
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-3 h-3 bg-gradient-to-r from-pink-400 to-rose-400 rounded-full animate-pulse"></div>
                 <div className="flex-1 h-px bg-gradient-to-r from-pink-200 to-transparent"></div>
-                <span className="text-2xl animate-bounce">{index % 2 === 0 ? '🌸' : '🌺'}</span>
+                <span className="text-2xl animate-bounce">
+                  {index % 4 === 0 ? '🍪' : index % 4 === 1 ? '🌸' : index % 4 === 2 ? '🧁' : '🌺'}
+                </span>
               </div>
               
               <p className="text-gray-700 text-base sm:text-lg leading-relaxed font-medium text-right">
