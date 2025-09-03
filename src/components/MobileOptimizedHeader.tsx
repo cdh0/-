@@ -40,7 +40,7 @@ const MobileOptimizedHeader: React.FC = () => {
         <div className="flex gap-4">
           <span className="text-2xl animate-bounce" style={{ animationDelay: '0s' }}>🍪</span>
           <span className="text-3xl animate-bounce" style={{ animationDelay: '0.2s' }}>🌺</span>
-          <span className="text-2xl animate-bounce" style={{ animationDelay: '0.4s' }}>🧁</span>
+          <span className="text-2xl animate-bounce" style={{ animationDelay: '0.4s' }}>🍪</span>
         </div>
       </div>
 
