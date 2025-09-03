@@ -38,9 +38,9 @@ const MobileOptimizedHeader: React.FC = () => {
       {/* Decorative elements */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4">
         <div className="flex gap-4">
-          <span className="text-2xl animate-bounce" style={{ animationDelay: '0s' }}>🌸</span>
+          <span className="text-2xl animate-bounce" style={{ animationDelay: '0s' }}>🍪</span>
           <span className="text-3xl animate-bounce" style={{ animationDelay: '0.2s' }}>🌺</span>
-          <span className="text-2xl animate-bounce" style={{ animationDelay: '0.4s' }}>🌷</span>
+          <span className="text-2xl animate-bounce" style={{ animationDelay: '0.4s' }}>🧁</span>
         </div>
       </div>
 
