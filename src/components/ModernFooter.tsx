@@ -15,7 +15,7 @@ const ModernFooter: React.FC = () => {
       <div className="text-center">
         <div className="inline-flex items-center gap-3 bg-white/60 backdrop-blur-sm px-6 py-3 rounded-full border border-pink-200/50 shadow-lg">
           <span className="text-gray-600 text-sm sm:text-base">مع كل الحب والتقدير</span>
-          <Heart className="text-pink-500 animate-pulse" size={18} />
+          <div className="text-4xl mb-4 animate-bounce">🍪</div>
           <span className="text-gray-600 text-sm sm:text-base font-semibold">لكوثر الغالية</span>
         </div>
         
