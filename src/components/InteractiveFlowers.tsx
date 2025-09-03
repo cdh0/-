@@ -14,7 +14,7 @@ const InteractiveFlowers: React.FC = () => {
   const [flowers, setFlowers] = useState<Flower[]>([]);
   const [touchFlowers, setTouchFlowers] = useState<{ id: number; x: number; y: number }[]>([]);
 
-  const flowerEmojis = ['🌸', '🌺', '🌷', '🌹', '🥀', '💮', '🏵️', '🌻', '🌼', '🌿', '🍀', '🌱'];
+  const flowerEmojis = ['🌸', '🌺', '🌷', '🌹', '🥀', '💮', '🏵️', '🌻', '🌼', '🌿', '🍀', '🌱', '🍪', '🧁', '🎂', '🍰'];
 
   const createFlower = useCallback((x?: number, y?: number): Flower => ({
     id: Date.now() + Math.random(),
